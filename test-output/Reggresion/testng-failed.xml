@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reggresion]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.loginTest">
+        <methods>
+          <include name="loginTest_TC03"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="removeDriver"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- tests.loginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Reggresion] -->
